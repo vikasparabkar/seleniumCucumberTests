@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-23T09:06:58 IST" name="Surefire suite" finished-at="2026-06-23T09:08:12 IST" duration-ms="73945">
+  <suite started-at="2026-06-23T09:09:43 IST" name="Surefire suite" finished-at="2026-06-23T09:09:51 IST" duration-ms="8121">
     <groups>
     </groups>
-    <test started-at="2026-06-23T09:06:58 IST" name="Surefire test" finished-at="2026-06-23T09:08:12 IST" duration-ms="73945">
+    <test started-at="2026-06-23T09:09:43 IST" name="Surefire test" finished-at="2026-06-23T09:09:51 IST" duration-ms="8121">
       <class name="TestPackage.CrossBrowserTest">
-        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@661972b0]" started-at="2026-06-23T09:06:58 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:07:23 IST" duration-ms="24738" status="PASS">
+        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@323b36e0]" started-at="2026-06-23T09:09:43 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:09:51 IST" duration-ms="8057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@661972b0]" started-at="2026-06-23T09:06:58 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:07:30 IST" duration-ms="31976" status="PASS">
+        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@323b36e0]" started-at="2026-06-23T09:09:43 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:09:51 IST" duration-ms="8083" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@661972b0]" started-at="2026-06-23T09:06:58 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:08:12 IST" duration-ms="73902" status="PASS">
+        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@323b36e0]" started-at="2026-06-23T09:09:43 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:09:51 IST" duration-ms="7920" status="PASS">
           <params>
             <param index="0">
               <value>
