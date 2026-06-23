@@ -1,0 +1,46 @@
+trigger:
+  branches:
+    include:
+      - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+# 1. Checkout code
+- task: Checkout@1
+  displayName: 'Checkout source code'
+
+# 2. Setup JDK
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '17'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'PreInstalled'
+
+# 3. Setup Maven
+- task: Maven@3
+  inputs:
+    goals: 'clean test'
+    options: '-Dcucumber.filter.tags=@Smoke'
+    mavenPomFile: 'pom.xml'
+    publishJUnitResults: true
+    testResultsFiles: '**/target/surefire-reports/TEST-*.xml'
+
+# 4. Install Allure CLI
+- script: |
+    sudo apt-get update
+    sudo apt-get install -y allure
+  displayName: 'Install Allure CLI'
+
+# 5. Generate Allure Report
+- script: |
+    allure generate target/allure-results -o target/allure-report --clean
+  displayName: 'Generate Allure Report'
+
+# 6. Publish Report Artifact
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: 'target/allure-report'
+    ArtifactName: 'AllureReport'
+    publishLocation: 'Container'
