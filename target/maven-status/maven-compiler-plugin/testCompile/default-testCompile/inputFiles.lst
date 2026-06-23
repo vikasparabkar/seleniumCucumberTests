@@ -6,6 +6,7 @@ D:\SeleniumCucumber\src\test\java\TestPackage\LaunchBrowser.java
 D:\SeleniumCucumber\src\test\java\TestPackage\RestAssuredTest.java
 D:\SeleniumCucumber\src\test\java\TestPackage\CrossBrowserTest.java
 D:\SeleniumCucumber\src\test\java\gepPackage\GepClass.java
+D:\SeleniumCucumber\src\test\java\pomClasses\PageFactoryClassTest.java
 D:\SeleniumCucumber\src\test\java\StepDefinations\OrangeHRMStepDefination.java
 D:\SeleniumCucumber\src\test\java\utils\DriverFactory.java
 D:\SeleniumCucumber\src\test\java\featureFilePOMClasses\OrangeHRM_POM.java

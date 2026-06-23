@@ -14,7 +14,7 @@ steps:
 # 2. Setup JDK
 - task: JavaToolInstaller@0
   inputs:
-    versionSpec: '17'
+    versionSpec: '21'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'
 
@@ -41,6 +41,6 @@ steps:
 # 6. Publish Report Artifact
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: 'target/allure-report'
-    ArtifactName: 'AllureReport'
+    pathToPublish: 'target/allure-report'
+    artifactName: 'AllureReport'
     publishLocation: 'Container'

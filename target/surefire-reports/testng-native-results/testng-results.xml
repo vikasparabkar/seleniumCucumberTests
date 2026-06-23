@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-23T09:09:43 IST" name="Surefire suite" finished-at="2026-06-23T09:09:51 IST" duration-ms="8121">
+  <suite started-at="2026-06-23T09:39:03 IST" name="Surefire suite" finished-at="2026-06-23T09:39:11 IST" duration-ms="8206">
     <groups>
     </groups>
-    <test started-at="2026-06-23T09:09:43 IST" name="Surefire test" finished-at="2026-06-23T09:09:51 IST" duration-ms="8121">
+    <test started-at="2026-06-23T09:39:03 IST" name="Surefire test" finished-at="2026-06-23T09:39:11 IST" duration-ms="8206">
+      <class name="pomClasses.PageFactoryClassTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pomClasses.PageFactoryClassTest@2b6faea6]" started-at="2026-06-23T09:39:03 IST" name="setup" finished-at="2026-06-23T09:39:03 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testMethod_clicksElement()[pri:0, instance:pomClasses.PageFactoryClassTest@2b6faea6]" started-at="2026-06-23T09:39:03 IST" name="testMethod_clicksElement" finished-at="2026-06-23T09:39:03 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod_clicksElement -->
+      </class> <!-- pomClasses.PageFactoryClassTest -->
       <class name="TestPackage.CrossBrowserTest">
-        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@323b36e0]" started-at="2026-06-23T09:09:43 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:09:51 IST" duration-ms="8057" status="PASS">
+        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@2473d930]" started-at="2026-06-23T09:39:03 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:39:11 IST" duration-ms="7689" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,22 +28,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@323b36e0]" started-at="2026-06-23T09:09:43 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:09:51 IST" duration-ms="8083" status="PASS">
+        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@2473d930]" started-at="2026-06-23T09:39:03 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:39:11 IST" duration-ms="7722" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[edge]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@323b36e0]" started-at="2026-06-23T09:09:43 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:09:51 IST" duration-ms="7920" status="PASS">
+        <test-method signature="testLogin(java.lang.String)[pri:0, instance:TestPackage.CrossBrowserTest@2473d930]" started-at="2026-06-23T09:39:03 IST" name="testLogin" data-provider="browsers" finished-at="2026-06-23T09:39:11 IST" duration-ms="7463" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
