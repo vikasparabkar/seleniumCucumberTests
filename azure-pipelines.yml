@@ -1,14 +1,20 @@
 trigger:
   branches:
     include:
+      - master
       - main
+
+pr:
+  branches:
+    include:
+      - master
 
 pool:
   vmImage: 'ubuntu-latest'
 
 steps:
 # 1. Checkout code
-- task: Checkout@1
+- checkout: self
   displayName: 'Checkout source code'
 
 # 2. Setup JDK
